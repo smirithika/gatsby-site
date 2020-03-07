@@ -1,0 +1,158 @@
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    display: grid;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-gap: 10px;
+}
+
+main {
+    width: 100%; 
+}
+
+footer {
+    text-align: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+}
+
+.navlogo a {
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.navitems {
+    margin: 3px;
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.navitem {
+    list-style: none;
+    position: sticky;
+    right: 0;
+    top: 0;
+    font-size: 20px;
+}
+
+.navitem a {
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        color: #555555;
+}
+
+.navitem a:hover {
+    color: #000;
+}
+
+.navitem a:active {
+    color: #a2c0be;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* #567876 */
+
+.welcome {
+    display: flex;
+    margin-left: 15px;
+    margin-top: 150px;
+}
+
+.welcome:-webkit-scrollbar {
+    background-color: #999999;
+}
+
+.welcome-note {
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.welcome-note h2 {
+    font-size: 65px;
+    margin-bottom: 0px;
+}
+
+.welcome-note p {
+    margin-top: 0px;
+    font-size: 20px;
+    color: #999999;
+}
+
+.welcome-doggy {
+    max-height: 550px;
+}
+
+.pet-care {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+}
+
+.pet-care-content {
+    max-width: 500px;
+}
+
+.pet-care h2 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.pet-care p {
+    font-size: 20px;
+    color: #999999;
+    text-align: center;
+}
+
+.pet-care-btn {
+    background-color: #a2c0be;
+    color: #fff;
+    padding: 10px 32px 15px 32px;
+    text-decoration: none;
+    border-radius: 35px;
+    font-size: 18px;
+}
+
+.pet-care-btn:hover {
+    background-color: black;
+}
+
+.pet-care div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.pet-care div h3 {
+    font-size: 30px;
+    font-style: normal;
+}
+
+.love-care-content {
+    display: flex;
+    flex-direction: row;
+    justify-items: right;
+}
+
+.pet-care img {
+    max-height: 300px;
+}
+
+.pet-care img:hover {
+    box-shadow: 10px 10px #a2c0be;
+    transition: box-shadow 0.5s ease-in-out;
+}
