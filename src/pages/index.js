@@ -99,6 +99,29 @@ const IndexPage = () => {
                     </a>
                     </div>
                 </section>
+                <section className='trainers'>
+                    <div className='trainers-content'>
+                        <h2 className='trainers-title'>OUR TRAINERS</h2>
+                        <p className='trainers-summary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                    </div>
+                    <div className='trainer-details'>
+                        <div className='individual-trainer trainer-1'>
+                            <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_1.jpg"></img>
+                            <h3>Jessica White</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div className='individual-trainer trainer-2'>
+                            <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_2.jpg"></img>
+                            <h3>Valerie Elash</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div className='individual-trainer trainer-3'>
+                            <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_3.jpg"></img>
+                            <h3>Alicia Jones</h3>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                    </div>
+                </section>
             </main>
             <footer>
                 <p>Copyright 2020 All rights reserved | <a href="www.triive.agency">Triive Agency</a></p>
