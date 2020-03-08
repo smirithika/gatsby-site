@@ -17,23 +17,29 @@ footer {
 }
 
 nav {
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    background-color: white;
+}
+
+.nav-content {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    width: 100%;
+    margin: 0px 50px 0px 50px;
+    max-height: 80px;
 }
 
 .navlogo a {
     text-decoration: none;
-    margin-left: 15px;
+    font-weight: normal;
+    font-size: 35px;
+    color: black;
 }
 
 .navitems {
-    margin: 3px;
     display: flex;
     justify-content: flex-end;
-    align-content: center;
 }
 
 .navitem {
@@ -41,7 +47,7 @@ nav {
     position: sticky;
     right: 0;
     top: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .navitem a {
@@ -74,7 +80,7 @@ nav {
 }
 
 .welcome:-webkit-scrollbar {
-    background-color: #999999;
+    background-color: #6c757d;
 }
 
 .welcome-note {
@@ -82,7 +88,7 @@ nav {
     justify-self: flex-start;
 }
 
-.welcome-note h2 {
+.welcome-note h1 {
     font-size: 65px;
     margin-bottom: 0px;
 }
@@ -90,32 +96,35 @@ nav {
 .welcome-note p {
     margin-top: 0px;
     font-size: 20px;
-    color: #999999;
+    color: #6c757d;
 }
 
 .welcome-doggy {
     max-height: 550px;
 }
 
-.pet-care {
+.welcome-pet-care {
     display: grid;
-    grid-template-rows: 1fr 1fr;
     width: 100%;
     justify-items: center;
+    margin-bottom: 5%;
 }
 
 .pet-care-content {
-    max-width: 500px;
+    max-width: 600px;
+    padding-top: 70px;
 }
 
-.pet-care h2 {
-    font-size: 38px;
+.pet-care-content h2 {
+    font-size: 33px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.pet-care p {
-    font-size: 20px;
-    color: #999999;
+.pet-care-content p {
+    margin-top: 0px;
+    font-size: 18px;
+    color: #6c757d;
     text-align: center;
 }
 
@@ -132,22 +141,6 @@ nav {
     background-color: black;
 }
 
-.pet-care div {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
-.pet-care div h3 {
-    font-size: 30px;
-    font-style: normal;
-}
-
-.love-care-content {
-    display: flex;
-    flex-direction: row;
-    justify-items: right;
-}
-
 .pet-care img {
     max-height: 300px;
 }
@@ -155,4 +148,77 @@ nav {
 .pet-care img:hover {
     box-shadow: 10px 10px #a2c0be;
     transition: box-shadow 0.5s ease-in-out;
+}
+/* 
+.pet-care {
+
+} */
+
+.pet-care div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-bottom: 10px;
+}
+
+.pet-care div h3 {
+    font-size: 35px;
+    font-weight:normal;
+}
+
+.pet-care div p {
+    color: #6c757d;
+    font-size: 19px;
+}
+
+.love-care-content {
+    max-width: 600px;
+    text-align: right;
+}
+
+.about-us {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 50px;
+    align-items: center;
+}
+
+.about-us-content {
+    margin-right: 90px;
+    margin-left: 10px;
+}
+
+.about-us-media {
+    margin-left: 30px;
+}
+
+.about-content-title {
+    font-size: 33px;
+}
+
+.about-content-subtitle {
+    font-size: 22px;
+    color: #6c757d;
+    font-weight: lighter;
+}
+
+.about-content-summary {
+    font-weight: 400;
+    font-size: 18px;
+    color: #6c757d;
+    line-height: 1.7;
+}
+
+.about-us-content ul {
+    color: #6c757d;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.about-us-content ul li {
+    padding-bottom: 15px;
+}
+
+.about-us-media img {
+    max-height: 700px;
 }

@@ -6,28 +6,30 @@ const IndexPage = () => {
     return (
         <body>
             <header>
-            <nav className={'sticky'}>
-                    <h1 className={'navlogo'}><a href="#">Dogger.</a></h1>
-                    <ul className={'navitems'}> 
-                        <li className={'navitem'}><a href="#">Home</a></li>
-                        <li className={'navitem'}><a href="#">About</a>
-                            {/* <ul>
-                                <li>Trainers</li>
-                                <li>Pricing</li>
-                                <li>FAQ</li>
-                                <li>Testimoniala</li>
-                                <li>Gallery</li>
-                                <li>Blog</li>
-                            </ul> */}
-                        </li>
-                        <li className={'navitem'}><a href="#">Trainers</a></li>
-                        <li className={'navitem'}><a href="#">Services</a></li>
-                        <li className={'navitem'}><a href="#">Contact</a></li>
-                    </ul>
+                <nav className={'sticky'}>
+                    <div className={'nav-content'}>
+                        <h1 className={'navlogo'}><a href="#">Dogger.</a></h1>
+                        <ul className={'navitems'}> 
+                            <li className={'navitem'}><a href="#">Home</a></li>
+                            <li className={'navitem'}><a href="#">About</a>
+                                {/* <ul>
+                                    <li>Trainers</li>
+                                    <li>Pricing</li>
+                                    <li>FAQ</li>
+                                    <li>Testimoniala</li>
+                                    <li>Gallery</li>
+                                    <li>Blog</li>
+                                </ul> */}
+                            </li>
+                            <li className={'navitem'}><a href="#">Trainers</a></li>
+                            <li className={'navitem'}><a href="#">Services</a></li>
+                            <li className={'navitem'}><a href="#">Contact</a></li>
+                        </ul>
+                    </div>    
                 </nav>
                 <div className={'welcome'}>
                     <div className={'welcome-note'}>
-                        <h2>WE CARE FOR<br/> YOUR DOG</h2>
+                        <h1>WE CARE FOR<br/> YOUR DOG</h1>
                         <p>We always try to provide your dog the best <br/> services.</p>
                     </div>
                     <div>
@@ -36,11 +38,13 @@ const IndexPage = () => {
                 </div>
             </header>
             <main>
-                <section className={'pet-care'}>
-                    <section className={'pet-care-content'}>
+                <section className={'welcome-pet-care'}>
+                    <div className={'pet-care-content'}>
                         <h2>WELCOME TO DOGGER PET CARE</h2>    
                         <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                    </section>
+                    </div>
+                </section>
+                <section className={'pet-care'}>
                     <div className={'love-and-care'}>
                         <div className={'love-care-content'}>
                             <h3>Love &amp; Care</h3>
@@ -76,6 +80,23 @@ const IndexPage = () => {
                         <div className={'beautiful-img'}>
                             <img src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_2.jpg" alt="love-care-image"></img>
                         </div>
+                    </div>
+                </section>
+                <section className={'about-us'}>
+                    <div className={'about-us-content'}>
+                        <h2 className="about-content-title">ABOUT US</h2>
+                        <p className="about-content-subtitle">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        <p className="about-content-summary">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                        <ul>
+                            <li>A small river named Duden flows</li>
+                            <li>It is a paradisematic country</li>
+                            <li>Roasted parts of sentences fly</li>
+                        </ul>
+                    </div>
+                    <div className={'about-us-media'}>
+                    <a href="https://vimeo.com/317571768">
+                        <img src="https://colorlib.com/preview/theme/dogger/images/dogger_img_big_1.jpg"></img>
+                    </a>
                     </div>
                 </section>
             </main>
