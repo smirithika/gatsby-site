@@ -74,33 +74,36 @@ nav {
 /* #567876 */
 
 .welcome {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
     margin-left: 15px;
     margin-top: 150px;
-}
-
-.welcome:-webkit-scrollbar {
-    background-color: #6c757d;
 }
 
 .welcome-note {
     align-self: flex-start;
     justify-self: flex-start;
+    margin: 50px;
+    max-width: 425px;
 }
 
 .welcome-note h1 {
     font-size: 65px;
     margin-bottom: 0px;
+    line-height: 1.2;
 }
 
 .welcome-note p {
-    margin-top: 0px;
+    margin-top: 5px;
     font-size: 20px;
+    font-weight: lighter;
     color: #6c757d;
 }
 
 .welcome-doggy {
-    max-height: 550px;
+    float: right;
+    margin-right: 50px;
+    max-height: 650px;
 }
 
 .welcome-pet-care {

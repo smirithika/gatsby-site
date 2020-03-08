@@ -29,8 +29,8 @@ const IndexPage = () => {
                 </nav>
                 <div className={'welcome'}>
                     <div className={'welcome-note'}>
-                        <h1>WE CARE FOR<br/> YOUR DOG</h1>
-                        <p>We always try to provide your dog the best <br/> services.</p>
+                        <h1>WE CARE FOR YOUR DOG</h1>
+                        <p>We always try to provide your dog the best services.</p>
                     </div>
                     <div>
                         <img className={'welcome-doggy'} src="https://colorlib.com/preview/theme/dogger/images/dogger_img_1.png" alt="dog image"></img>
