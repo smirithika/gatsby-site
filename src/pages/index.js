@@ -51,8 +51,8 @@ const IndexPage = () => {
                     <section className={'pet-care'}>
                         <div className={'love-and-care'}>
                             <div className={'love-care-content'}>
-                                <h3>Love &amp; Care</h3>
-                                <p>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3 className='pet-care-title'>Love &amp; Care</h3>
+                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>
@@ -66,8 +66,8 @@ const IndexPage = () => {
                                 <img src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_1.jpg" alt="love-care-image"></img>
                             </div>
                             <div className={'fearsome-content'}>
-                                <h3>Fearsome</h3>
-                                <p>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3  className='pet-care-title'>Fearsome</h3>
+                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>
@@ -75,8 +75,8 @@ const IndexPage = () => {
                         </div>
                         <div className={'beautiful'}>
                             <div className={'beautiful-content'}>
-                                <h3>Beautiful</h3>
-                                <p>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3 className='pet-care-title'>Beautiful</h3>
+                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>

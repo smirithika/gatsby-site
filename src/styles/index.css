@@ -153,57 +153,55 @@ nav {
     transition: box-shadow 0.5s ease-in-out;
 }
 
-.pet-care div {
+.pet-care {
     width: 100%;
     padding-bottom: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
-.pet-care div h3 {
+.pet-care div {
+    display: flex;
+    padding: 0px 40px 10px 40px;
+}
+
+.pet-care-title {
     font-size: 35px;
     font-weight:normal;
+    margin-bottom: 0px;
 }
 
-.pet-care div p {
+.pet-care-summary {
+    margin-top: 5px;
     color: #6c757d;
-    font-size: 19px;
+    font-size: 18px;
+    line-height: 28px;
 }
 
-.pet-care {
-    max-width: 1000px;
-}
-
-.love-care-content {
+.love-care-content, .beautiful-content {
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
     text-align: right;
 }
 
 .fearsome-content {
+    display: flex;
+    flex-direction: column;
     max-width: 600px;
     text-align: left;
-}
-
-.beautiful-content {
-    max-width: 600px;
-    text-align: right;
 }
 
 .about-us {
     display: grid;
     grid-template-columns: 50% 50%;
-    margin: 50px;
+    margin: 100px 0px 100px 20px;
     align-items: center;
 }
 
 .about-us-content {
-    margin-right: 90px;
-    margin-left: 10px;
-}
-
-.about-us-media {
-    margin-left: 30px;
+    margin-right: 80px;
+    margin-left: 50px;
 }
 
 .about-content-title {
