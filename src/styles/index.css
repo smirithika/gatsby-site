@@ -247,18 +247,18 @@ nav {
 
 }
 
-.trainers-content {
+.trainers-content, .pricing-content {
     text-align: center;
     max-width: 600px;
 }
 
-.trainers-title {
+.trainers-title, .pricing-title {
     font-size: 33px;
     margin-top: 50px;
     margin-bottom: 0px;
 }
 
-.trainers-summary {
+.trainers-summary, .pricing-summary {
     font-weight: 400;
     font-size: 18px;
     color: #6c757d;
@@ -297,4 +297,111 @@ nav {
     color: #6c757d;
     line-height: 1.5;
     font-size: 18px;
+}
+
+/* .social-icons {
+
+}
+
+.fa {
+    
+} */
+
+.pricing {
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.pricing-table {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+
+.basic-pricing, .premium-pricing, .professional-pricing {
+    display: grid;
+    justify-items: center;
+    padding: 40px;
+}
+
+.basic-pricing, .professional-pricing {
+    background-color: #a2c0be;
+}
+.premium-pricing {
+    background-color: #343a40;
+}
+
+.pricing-type {
+    font-weight: normal;
+    font-size: 1.75rem;
+    padding-bottom: 0px;
+    margin-top: 5px;
+}
+
+.pricing-price {
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 20px;
+}
+
+.pricing-amount {
+    font-size: 3.1rem;
+    margin: 0px;
+}
+ 
+.pricing-period {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pricing-features {
+    font-size: 17px;
+    list-style: '✓';
+}
+
+.pricing-feature {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.pricing-feature span {
+    position: relative;
+    left: 15px;
+}
+
+.pricing-btn {
+    color: #fff;
+    padding: 10px 30px 15px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.basic-pricing .pricing-btn, .professional-pricing .pricing-btn {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+.basic-pricing .pricing-btn:hover, .professional-pricing .pricing-btn:hover {
+    background-color: #343a40;
+    transition: 0.2s ease-in-out;
+
+}
+
+.premium-pricing .pricing-btn {
+    background-color: #a2c0be;
+    border-color: #a2c0be;
+}
+
+.premium-pricing .pricing-btn:hover {
+    background-color: black;
+    transition: 0.2s ease-in-out;
 }
