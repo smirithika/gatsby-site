@@ -299,13 +299,17 @@ nav {
     font-size: 18px;
 }
 
-/* .social-icons {
-
+.trainer-social .fa {
+    background-color: white;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    margin-right: 10px;
 }
-
-.fa {
-    
-} */
 
 .pricing {
     width: 100%;
@@ -313,6 +317,7 @@ nav {
     grid-template-rows: auto auto;
     align-items: center;
     justify-items: center;
+    margin-top: 50px;
 }
 
 .pricing-table {

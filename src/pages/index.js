@@ -113,7 +113,7 @@ const IndexPage = () => {
                                 <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_1.jpg"></img>
                                 <h3>Jessica White</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <div className='social-icons'>
+                                <div className='trainer-social'>
                                     <a className="fa fa-facebook" href="#"></a>
                                     <a className="fa fa-instagram" href="#"></a>
                                     <a className="fa fa-twitter" href="#"></a>
@@ -123,7 +123,7 @@ const IndexPage = () => {
                                 <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_2.jpg"></img>
                                 <h3>Valerie Elash</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <div className='social-icons'>
+                                <div className='trainer-social'>
                                     <a className="fa fa-facebook" href="#"></a>
                                     <a className="fa fa-instagram" href="#"></a>
                                     <a className="fa fa-twitter" href="#"></a>
@@ -133,10 +133,10 @@ const IndexPage = () => {
                                 <img src="https://colorlib.com/preview/theme/dogger/images/dogger_trainer_3.jpg"></img>
                                 <h3>Alicia Jones</h3>
                                 <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-                                <div className='social-icons'>
-                                    <a className="fa fa-facebook" href="#"></a>
-                                    <a className="fa fa-instagram" href="#"></a>
+                                <div className='trainer-social'>
                                     <a className="fa fa-twitter" href="#"></a>
+                                    <a className="fa fa-instagram" href="#"></a>
+                                    <a className="fa fa-facebook" href="#"></a>
                                 </div>
                             </div>
                         </div>
