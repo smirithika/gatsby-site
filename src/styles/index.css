@@ -107,28 +107,30 @@ nav {
 }
 
 .welcome-pet-care {
+    margin-top: 50px;
     display: grid;
     width: 100%;
     justify-items: center;
-    margin-bottom: 5%;
 }
 
-.pet-care-content {
-    max-width: 600px;
-    padding-top: 70px;
-}
-
-.pet-care-content h2 {
-    font-size: 33px;
-    margin-bottom: 10px;
+.trainers-content, .pricing-content, .faq-content, .pet-care-content {
     text-align: center;
+    max-width: 600px;
 }
 
-.pet-care-content p {
-    margin-top: 0px;
+.trainers-title, .pricing-title, .faq-title, .pet-care-title {
+    font-size: 33px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.trainers-summary, .pricing-summary, .faq-summary, .pet-care-summary {
+    font-weight: 400;
     font-size: 18px;
     color: #6c757d;
-    text-align: center;
+    line-height: 1.7;
+    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
 .pet-care-btn {
@@ -165,13 +167,13 @@ nav {
     padding: 0px 40px 10px 40px;
 }
 
-.pet-care-title {
+.pet-care-subtitle {
     font-size: 35px;
     font-weight:normal;
     margin-bottom: 0px;
 }
 
-.pet-care-summary {
+.pet-care-details {
     margin-top: 5px;
     color: #6c757d;
     font-size: 18px;
@@ -245,26 +247,6 @@ nav {
 
 }
 
-.trainers-content, .pricing-content {
-    text-align: center;
-    max-width: 600px;
-}
-
-.trainers-title, .pricing-title {
-    font-size: 33px;
-    margin-top: 50px;
-    margin-bottom: 0px;
-}
-
-.trainers-summary, .pricing-summary {
-    font-weight: 400;
-    font-size: 18px;
-    color: #6c757d;
-    line-height: 1.7;
-    margin-top: 10px;
-    margin-bottom: 60px;
-}
- 
 .trainer-details {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -307,6 +289,12 @@ nav {
     color: #000;
     text-align: center;
     margin-right: 10px;
+}
+
+.trainer-social .fa:hover {
+    position: relative;
+    top: -10px;
+    transition:position 2s ease-in-out;    
 }
 
 .pricing {
@@ -407,4 +395,120 @@ nav {
 .premium-pricing .pricing-btn:hover {
     background-color: black;
     transition: 0.2s ease-in-out;
+}
+
+.faq {
+    display: grid;
+    grid-template-rows: auto auto;
+    width: 100%;
+    margin: 50px 0px 50px 0px;
+    justify-items: center;
+}
+
+.faq-bottom-content {
+    max-width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.faq-img {
+    max-width: 525px;
+}
+
+footer {
+    display: grid;
+    background-color: #333333;
+    align-items: center;
+    padding: 50px;
+}
+
+.shortcuts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: left;
+    justify-items: center;
+    margin-bottom: 50px;
+    padding: 50px;
+}
+
+.shortcut-heading {
+        font-weight: normal;
+        font-size: 16.5px;
+        color: white;
+}
+
+.shortcut-summary {
+    font-size: 16.5px;
+    color: #737373;
+    line-height: 28px;
+}
+
+.shortcut-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    line-height: 40px;
+}
+
+.shortcut-list a {
+    text-decoration: none;
+    color: #999;
+    font-size: 16.5px;
+}
+
+.footer-follow-us .fa {
+    color: #737373;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.footer-newsletter form {
+    height: 30px;
+    padding-top: 10px;
+}
+
+.footer-newsletter-input {
+    background-color: transparent;
+    border: 1px solid #737373;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 12.5px;
+    margin: 0px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.footer-newsletter-btn {
+    background-color: white;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 100px;
+    height: 45px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 500;
+}
+
+.copyright p {
+    color: #737373;
+    margin: 50px;
+    font-size: 14px;
+}
+
+.copyright hr {
+    border-color: #737373;
+
+}
+
+.agency-link {
+    text-decoration: none;
+    color: grey;
+}
+
+.agency-link:hover {
+    color: white;
 }

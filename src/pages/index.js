@@ -44,15 +44,15 @@ const IndexPage = () => {
                 <main>
                     <section className={'welcome-pet-care'}>
                         <div className={'pet-care-content'}>
-                            <h2>WELCOME TO DOGGER PET CARE</h2>    
-                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <h2 className='pet-care-title'>WELCOME TO DOGGER PET CARE</h2>    
+                            <p className='pet-care-summary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
                         </div>
                     </section>
                     <section className={'pet-care'}>
                         <div className={'love-and-care'}>
                             <div className={'love-care-content'}>
-                                <h3 className='pet-care-title'>Love &amp; Care</h3>
-                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3 className='pet-care-subtitle'>Love &amp; Care</h3>
+                                <p className='pet-care-details'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>
@@ -66,8 +66,8 @@ const IndexPage = () => {
                                 <img src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_1.jpg" alt="love-care-image"></img>
                             </div>
                             <div className={'fearsome-content'}>
-                                <h3  className='pet-care-title'>Fearsome</h3>
-                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3  className='pet-care-subtitle'>Fearsome</h3>
+                                <p className='pet-care-details'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>
@@ -75,8 +75,8 @@ const IndexPage = () => {
                         </div>
                         <div className={'beautiful'}>
                             <div className={'beautiful-content'}>
-                                <h3 className='pet-care-title'>Beautiful</h3>
-                                <p className='pet-care-summary'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                <h3 className='pet-care-subtitle'>Beautiful</h3>
+                                <p className='pet-care-details'>Far far away, behind the word mountains, Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
                                 <p>
                                     <a className={'pet-care-btn'} href="#">Read More</a>
                                 </p>
@@ -86,7 +86,7 @@ const IndexPage = () => {
                             </div>
                         </div>
                     </section>
-                    <section className={'about-us'}>
+                    <section id="about-us" className={'about-us'}>
                         <div className={'about-us-content'}>
                             <h2 className="about-content-title">ABOUT US</h2>
                             <p className="about-content-subtitle">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
@@ -103,7 +103,7 @@ const IndexPage = () => {
                         </a>
                         </div>
                     </section>
-                    <section className='trainers'>
+                    <section id="trainers" className='trainers'>
                         <div className='trainers-content'>
                             <h2 className='trainers-title'>OUR TRAINERS</h2>
                             <p className='trainers-summary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
@@ -194,9 +194,81 @@ const IndexPage = () => {
                             </div>
                         </div>
                     </section>
+                    <section className='faq'>
+                        <div className='faq-content'>
+                            <h2 className='faq-title'>FREQUENTLY ASK QUESTIONS</h2>
+                            <p className='faq-summary'>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div className='faq-bottom-content'>
+                            <div className='faq-questions'>
+                                <ul className='questions'>
+                                    <li>questuin1</li>
+                                    <li>questuin1</li>
+                                    <li>questuin1</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <img className='faq-img' src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_1.jpg" alt="faq dog image"></img>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="testimonials" className='customers'>
+
+                    </section>
+                    <section className='gallery'>
+
+                    </section>
+                    <section className='blog'>
+
+                    </section>
+                    <section id="services" className='services'>
+
+                    </section>
+                    <section id="contact-us" className='contact'>
+                        <div className='contact-form'>
+
+                        </div>
+                        <div className='contact-us'>
+
+                        </div>
+                    </section>
                 </main>
                 <footer>
-                    <p>Copyright 2020 All rights reserved | <a href="www.triive.agency">Triive Agency</a></p>
+                    <div className='shortcuts'>
+                        <div className="footer-about-us">
+                            <h2 className='shortcut-heading'>About Us</h2>
+                            <p className='shortcut-summary'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                        </div>
+                        <div className="footer-quick-links">
+                            <h2 className='shortcut-heading'>Quick Links</h2>
+                            <ul className='shortcut-list'>
+                                <li><a href='#about-us'>About Us</a></li>
+                                <li><a href='#trainers'>Trainers</a></li>
+                                <li><a href='#services'>Services</a></li>
+                                <li><a href='#testimonials'>Testimonials</a></li>
+                                <li><a href='#contact-us'>Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div className="footer-follow-us">
+                            <h2 className='shortcut-heading'>Follow Us</h2>
+                            <a href="#" className="fa fa-facebook"></a>
+                            <a href="#" className="fa fa-twitter"></a>
+                            <a href="#" className="fa fa-instagram"></a>
+                            <a href="#" className="fa fa-linkedin"></a>
+                        </div>
+                        <div className="footer-newsletter">
+                            <h2 className='shortcut-heading'>Subscribe Newsletter</h2>
+                            <form>
+                                <input className="footer-newsletter-input" type="text" placeholder="Enter Email"></input>
+                                <button className="footer-newsletter-btn">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div className='copyright'>
+                        <hr/>
+                        <p>Copyright 2020 All rights reserved | <a className='agency-link' href='https://www.triive.agency'>Triive Agency</a></p>
+                    </div>
                 </footer>
             </body>
         </html>
