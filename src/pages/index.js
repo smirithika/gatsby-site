@@ -220,10 +220,94 @@ const IndexPage = () => {
 
                     </section>
                     <section className='blog'>
-
+                        <div className="blog-content">
+                            <h2 className="blog-title">DOGGER BLOG</h2>
+                            <p className="blog-summary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div className="blog-details">
+                            <div className="blog-row">
+                                <div className="blog-individual">
+                                    <a href="#"><img className="blog-img" src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_1.jpg" alt="blog image"/></a>
+                                    <div>
+                                        <h3>5 Things You Need To Know About Dog Massage</h3>
+                                        <span>April 17, 2019</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" className="blog-link">Read More..</a>
+                                    </div>
+                                </div>
+                                <div className="blog-individual">
+                                    <a cl href="#"><img className="blog-img" src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_2.jpg" alt="blog image"/></a>
+                                    <div>
+                                        <h3>5 Things You Need To Know About Dog Massage</h3>
+                                        <span>April 17, 2019</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" className="blog-link">Read More..</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="blog-row">
+                                <div className="blog-individual">
+                                    <a href="#"><img className="blog-img" src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_3.jpg" alt="blog image"/></a>
+                                    <div>
+                                        <h3>5 Things You Need To Know About Dog Massage</h3>
+                                        <span>April 17, 2019</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" className="blog-link">Read More..</a>
+                                    </div>
+                                </div>
+                                <div className="blog-individual">
+                                    <a href="#"><img className="blog-img" src="https://colorlib.com/preview/theme/dogger/images/dogger_img_sm_1.jpg" alt="blog image"/></a>
+                                    <div>
+                                        <h3>5 Things You Need To Know About Dog Massage</h3>
+                                        <span>April 17, 2019</span>
+                                        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                        <a href="#" className="blog-link">Read More..</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <section id="services" className='services'>
-
+                        <div className="services-content">
+                            <h2 className="services-title">OUR SERVICES</h2>
+                            <p className="services-summary">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div  className="services-details">
+                            <div className="services-details-row">
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_checkup.svg" alt="Checkup"></img>
+                                    <h3>Dog Checkup</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_dermatology.svg" alt="Dermatology"></img>
+                                    <h3>Dog Dermatology</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_bones.svg" alt="Strong Teeth"></img>
+                                    <h3>For Strong Teeth</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                            </div>
+                            <div className="services-details-row">
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_veterinary.svg" alt="First Aid"></img>
+                                    <h3>Dog First Aid</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_dryer.svg" alt="Dryer"></img>
+                                    <h3>Dog Dryer</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                                <div className="services-detail">
+                                    <img src="https://colorlib.com/preview/theme/dogger/images/dogger_veterinarian.svg" alt="Veterinarian"></img>
+                                    <h3>Expert Veterinarian</h3>
+                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <section id="contact-us" className='contact'>
                         <div>
