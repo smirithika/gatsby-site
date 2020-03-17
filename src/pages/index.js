@@ -226,11 +226,54 @@ const IndexPage = () => {
 
                     </section>
                     <section id="contact-us" className='contact'>
-                        <div className='contact-form'>
-
-                        </div>
-                        <div className='contact-us'>
-
+                        <div>
+                            <div className='contact-form'>
+                                <h2  className='contact-form-heading'>Contact Form</h2>
+                                <form className="contact-form-content">
+                                    <div className="contact-form-name">
+                                        <div className="contact-form-fname">
+                                            <label className="contact-form-detail" for="fname">First Name</label><br/>
+                                            <input className=" contact-form-name-input" type="text" id="fname" name="fname"/>
+                                        </div>
+                                        <div className="contact-form-lname">
+                                            <label className="contact-form-detail" for="lname">Last Name</label><br/>
+                                            <input className="contact-form-name-input" type="text" id="lname" name="lname"/>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <label className="contact-form-detail" for="email">Email</label><br/>
+                                        <input className="contact-form-input" type="text" id="email" name="email"/>
+                                    </div>
+                                    <div>
+                                        <label className="contact-form-detail" for="subject">Subject</label><br/>
+                                        <input className="contact-form-input" type="text" id="subject" name="subject"/>
+                                    </div>
+                                    <div>
+                                        <label className="contact-form-detail" for="message">Message</label><br/>
+                                        <textarea className="contact-form-message" id="message" name="message" placeholder="Write your notes or questions here..." cols="30" rows="7"></textarea>
+                                    </div>
+                                    <div>
+                                        <input className="contact-form-submit" type="submit" value="Send Message"/>
+                                    </div>
+                                </form>
+                            </div>
+                            <div className='contact-us'>
+                                <h2 className='contact-us-heading'>CONTACT US</h2>
+                                <ul className='contact-us-details'>
+                                    <li className="contact-us-detail">
+                                        <span>Address:</span>
+                                        <p>Melbourne St,South Birbane 4101 Austraila</p>
+                                    </li>
+                                    <li className="contact-us-detail">
+                                        <span>Phone:</span>
+                                        <p>+(000) 123 4567 89</p>
+                                    </li>
+                                    <li className="contact-us-detail">
+                                        <span>Email:</span>
+                                        <p>info@yourdomain.com</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </section>
                 </main>
