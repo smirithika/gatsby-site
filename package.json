@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gatsby": "^2.19.29",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-sass": "^2.1.29",
     "node-sass": "^4.13.1",
     "react": "^16.13.0",
